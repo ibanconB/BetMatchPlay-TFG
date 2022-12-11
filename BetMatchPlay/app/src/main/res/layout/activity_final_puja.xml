@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.FinalPujaActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/enoharebuena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="¡¡¡ENHORABUENA!!!!"
+        android:textAlignment="center"
+        android:textColor="@color/subtituloBMP"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etUsuarioGanador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enoharebuena"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:text="Usuario"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textoGanador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enoharebuena"
+        android:layout_marginTop="119dp"
+        android:gravity="center"
+        android:text="HAS GANADO LA PUJA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textoPujaDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enoharebuena"
+        android:layout_marginTop="201dp"
+        android:gravity="center"
+        android:text="Descripcion"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="314dp"
+        android:layout_height="356dp"
+        android:layout_below="@id/textoPujaDescripcion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/btn_fondo"
+        android:backgroundTint="@color/white"
+        android:text="pagar" />
+
+
+</RelativeLayout>

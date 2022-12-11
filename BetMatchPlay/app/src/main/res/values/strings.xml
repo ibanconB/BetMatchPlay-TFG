@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BetMatchPlay!</string>
+    <string name="betmatchplay">BetMatchPlay!</string>
+    <string name="crea_tu_cuenta">Crea tu cuenta</string>
+    <string name="inicia_sesion">Inicia sesion</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="correo_electronico">Correo electronico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="dinero_en_la_puja">Dinero en la puja</string>
+
+</resources>

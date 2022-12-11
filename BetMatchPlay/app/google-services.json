@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314592013323",
+    "project_id": "betmatchplay",
+    "storage_bucket": "betmatchplay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314592013323:android:1ed03984de6eab2f3e2b0e",
+        "android_client_info": {
+          "package_name": "com.example.betmatchplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314592013323-sqhao6bis6bb9bjijolqd45q872pt3vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd00l5nTh6cVsFgACjny0ZBf-3MbOCEjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314592013323-sqhao6bis6bb9bjijolqd45q872pt3vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

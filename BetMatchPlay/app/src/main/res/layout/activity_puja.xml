@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PujaActivity"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/holderImageView"
+            android:layout_width="match_parent"
+            android:layout_height="344dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/holderTituloPujas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/holderImageView"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:padding="3dp"
+            android:text="Nombre campo"
+            android:textColor="@color/subtituloBMP"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/holderSubtituloPujas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/holderTituloPujas"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:maxLines="3"
+            android:padding="3dp"
+            android:text="descripcion"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/holderPrecio"
+            android:layout_width="408dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/holderSubtituloPujas"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:padding="3dp"
+            android:text="Precio"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etPujar"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="123dp"
+        android:background="@drawable/et_fondo"
+        android:ems="10"
+        android:hint="Dinero a pujar"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnPujar"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_alignEnd="@+id/etPujar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-154dp"
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/btn_fondo"
+        android:text="Bet!" />
+
+</RelativeLayout>
